@@ -11,3 +11,707 @@ No.2 : <!DOCTYPE html>
     <button>Klik Saya</button>
 </body>
 </html>
+
+No.3 : <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <h1>Latihan JavaScript</h1>
+    <button onclick="alert('Hello World!')">Klik Saya</button>
+</body>
+</html>
+
+No.4 : <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <h1>Latihan JavaScript</h1>
+    <button onclick="alert('Hello World!')">Klik Saya</button>
+    
+    <script>
+        document.write('Selamat datang di latihan JavaScript');
+    </script>
+</body>
+</html>
+
+No.5 : JavaScript: // script.js
+window.onload = function() {
+    document.querySelector('h1').textContent = 'Latihan JavaScript Selesai';
+};
+Html Up! : <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <h1>Latihan JavaScript</h1>
+    <button onclick="alert('Hello World!')">Klik Saya</button>
+
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+LATIHAN 2
+No.1 : <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <h1>Latihan JavaScript</h1>
+    <button onclick="alert('Hello World!')">Klik Saya</button>
+    
+    <!-- Elemen div dengan ID "output" -->
+    <div id="output"></div>
+    
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+No.2 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+LATIHAN 3 
+No. 1 <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <h1>Latihan JavaScript</h1>
+    <button onclick="alert('Hello World!')">Klik Saya</button>
+    
+    <!-- Elemen div dengan ID "output" -->
+    <div id="output"></div>
+    
+    <!-- Menambahkan elemen input dan tombol -->
+    <input type="text" id="userInput" placeholder="Masukkan nilai">
+    <button onclick="checkValue()">Cek Nilai</button>
+    
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+No.2 : Di file script.js, tambahkan kode untuk:
+Membaca nilai yang dimasukkan pengguna dari input menggunakan document.getElementById().value.
+Gunakan pernyataan if...elseuntuk memeriksa apakah nilai tersebut lebih besar dari, sama dengan, atau kurang dari 10, dan tampilkan pesan yang sesuai di div "output".
+Gunakan perulangan foruntuk menampilkan angka 1 hingga nilai yang dimasukkan pengguna di div "output".
+
+LATIHAN 4
+No. 1 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Contoh penggunaan fungsi greet
+console.log(greet("Alice")); // Menampilkan "Halo, Alice" di konsol
+
+No.2 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+No.3 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+No.4 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+LATIHAN 5
+No.1 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+// Mendeklarasikan array students
+let students = ["Alice", "Bob", "Charlie"];
+
+// Menampilkan array students di dalam div dengan ID "output"
+let studentsList = "<p>Students:</p><ul>";
+for (let i = 0; i < students.length; i++) {
+    studentsList += `<li>${students[i]}</li>`;
+}
+studentsList += "</ul>";
+
+document.getElementById('output').innerHTML += studentsList;
+
+No.2 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+// Mendeklarasikan array students
+let students = ["Alice", "Bob", "Charlie"];
+
+// Menambahkan nama baru ke array students
+students.push("David");
+
+// Menampilkan array students di dalam div dengan ID "output"
+let studentsList = "<p>Students:</p><ul>";
+students.forEach(student => {
+    studentsList += `<li>${student}</li>`;
+});
+studentsList += "</ul>";
+
+document.getElementById('output').innerHTML += studentsList;
+
+No.3 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+// Mendeklarasikan array students
+let students = ["Alice", "Bob", "Charlie"];
+
+// Menambahkan nama baru ke array students
+students.push("David");
+
+// Menampilkan array students di dalam div dengan ID "output"
+let studentsList = "<p>Students:</p><ul>";
+students.forEach(student => {
+    studentsList += `<li>${student}</li>`;
+});
+studentsList += "</ul>";
+
+document.getElementById('output').innerHTML += studentsList;
+
+// Mendeklarasikan objek car
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+// Menampilkan informasi tentang mobil di dalam div dengan ID "output"
+document.getElementById('output').innerHTML += `<p>Car Brand: ${car.brand}</p>`;
+document.getElementById('output').innerHTML += `<p>Car Model: ${car.model}</p>`;
+document.getElementById('output').innerHTML += `<p>Car Year: ${car.year}</p>`;
+
+No.4 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+// Mendeklarasikan array students
+let students = ["Alice", "Bob", "Charlie"];
+
+// Menambahkan nama baru ke array students
+students.push("David");
+
+// Menampilkan array students di dalam div dengan ID "output"
+let studentsList = "<p>Students:</p><ul>";
+students.forEach(student => {
+    studentsList += `<li>${student}</li>`;
+});
+studentsList += "</ul>";
+
+document.getElementById('output').innerHTML += studentsList;
+
+// Mendeklarasikan objek car
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+// Menampilkan semua properti dari objek car menggunakan for...in loop
+let carProperties = "<p>Car Properties:</p><ul>";
+for (let key in car) {
+    carProperties += `<li>${key}: ${car[key]}</li>`;
+}
+carProperties += "</ul>";
+
+document.getElementById('output').innerHTML += carProperties;
+
+No.5 : // script.js
+
+// Mendeklarasikan variabel
+let name = "John";
+const age = 30;
+
+// Menampilkan nama dan umur di dalam div dengan ID "output"
+document.getElementById('output').innerHTML = `<p>Nama: ${name}</p><p>Umur: ${age}</p>`;
+
+// Mendeklarasikan array
+let fruits = ["Apple", "Banana", "Mango"];
+
+// Menambahkan buah ke dalam div dengan ID "output"
+let fruitsList = "<p>Fruits:</p><ul>";
+for (let i = 0; i < fruits.length; i++) {
+    fruitsList += `<li>${fruits[i]}</li>`;
+}
+fruitsList += "</ul>";
+
+// Menambahkan list buah ke dalam div
+document.getElementById('output').innerHTML += fruitsList;
+
+// Mendeklarasikan objek
+let person = {firstName: "John", lastName: "Doe", age: 30};
+
+// Menambahkan properti firstName dan lastName ke dalam div
+document.getElementById('output').innerHTML += `<p>First Name: ${person.firstName}</p><p>Last Name: ${person.lastName}</p>`;
+
+// Mendefinisikan fungsi greet
+function greet(name) {
+    return `Halo, ${name}`;
+}
+
+// Memanggil fungsi greet dengan argumen yang berbeda dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>${greet("Alice")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Bob")}</p>`;
+document.getElementById('output').innerHTML += `<p>${greet("Charlie")}</p>`;
+
+// Mendefinisikan fungsi calculateSquare
+function calculateSquare(number) {
+    return number * number;
+}
+
+// Memanggil fungsi calculateSquare dengan beberapa angka dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Square of 2: ${calculateSquare(2)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 5: ${calculateSquare(5)}</p>`;
+document.getElementById('output').innerHTML += `<p>Square of 10: ${calculateSquare(10)}</p>`;
+
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+const addNumbers = (a, b) => a + b;
+
+// Memanggil fungsi addNumbers dan menampilkan hasilnya
+document.getElementById('output').innerHTML += `<p>Sum of 3 and 4: ${addNumbers(3, 4)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 7 and 8: ${addNumbers(7, 8)}</p>`;
+document.getElementById('output').innerHTML += `<p>Sum of 10 and 20: ${addNumbers(10, 20)}</p>`;
+
+// Mendeklarasikan array students
+let students = ["Alice", "Bob", "Charlie"];
+
+// Menambahkan nama baru ke array students
+students.push("David");
+
+// Menampilkan array students di dalam div dengan ID "output"
+let studentsList = "<p>Students:</p><ul>";
+students.forEach(student => {
+    studentsList += `<li>${student}</li>`;
+});
+studentsList += "</ul>";
+
+document.getElementById('output').innerHTML += studentsList;
+
+// Mendeklarasikan array objek untuk menyimpan data mobil
+let cars = [
+    {brand: "Toyota", model: "Corolla", year: 2020},
+    {brand: "Honda", model: "Civic", year: 2021},
+    {brand: "Ford", model: "Focus", year: 2019}
+];
+
+// Menampilkan informasi setiap mobil di dalam div dengan ID "output"
+let carsList = "<p>Cars:</p><ul>";
+cars.forEach(car => {
+    carsList += `<li>Brand: ${car.brand}, Model: ${car.model}, Year: ${car.year}</li>`;
+});
+carsList += "</ul>";
+
+document.getElementById('output').innerHTML += carsList;
+.
