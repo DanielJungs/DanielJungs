@@ -64,3 +64,955 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<link rel="stylesheet" href="<https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css>">
+NO.3 : sistem grid
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid</h1>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <nav class="col-12 col-md-4 bg-dark text-white p-3">
+                <h2>Menu Navigasi</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Konten Utama -->
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Ini adalah area konten utama.</p>
+            </main>
+        </div>
+
+        <!-- Sampingan (Sidebar) -->
+        <div class="row">
+            <aside class="col-md-4 offset-md-8 bg-light p-3">
+                <h3>Sidebar</h3>
+                <p>Ini adalah area sampingan.</p>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <div class="row mt-4">
+            <footer class="col-12 bg-dark text-white text-center py-3">
+                <p>&copy; 2024 Latihan Bootstrap dengan Grid</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+NO.4 konten Dummy 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <nav class="col-12 col-md-4 bg-dark text-white p-3">
+                <h2>Menu Navigasi</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet euismod orci non convallis.</p>
+            </nav>
+
+            <!-- Konten Utama -->
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut hendrerit lacus, eget viverra magna. Nullam nec neque sit amet est ullamcorper pharetra at ut orci.</p>
+                <p>Nulla facilisi. In feugiat neque a tellus aliquam, sed dictum sapien vehicula. Etiam aliquam, augue a viverra fermentum, lorem turpis congue libero, at tincidunt elit ligula non ligula.</p>
+                <p>Morbi malesuada nisi id justo cursus, in pulvinar erat fringilla. Sed quis eros ac mi cursus aliquet a at dui. Donec vehicula, urna nec dictum varius, turpis ex consequat ligula, nec volutpat elit magna eget libero.</p>
+            </main>
+        </div>
+
+        <!-- Sampingan (Sidebar) -->
+        <div class="row">
+            <aside class="col-md-4 offset-md-8 bg-light p-3">
+                <h3>Sidebar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet nunc a turpis sod
+
+LATIHAN 2 
+No.1 tambahkan navbar 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid dan Navbar</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid dan Navbar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <nav class="navbar navbar-expand-lg navbar
+
+No.2 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid dan Navbar</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid dan Navbar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Brand</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="row">
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut hendrerit lacus, eget viverra magna. Nullam nec neque sit amet est ullamcorper pharetra at ut orci.</p>
+                <p>Nulla facilisi. In feugiat neque a
+
+No.3 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid dan Navbar</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid dan Navbar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Brand</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="row">
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut hendrerit lacus, eget viverra magna. Nullam nec neque sit amet est ullamcorper pharetra at ut orci.</p>
+                <p>Nulla facilisi. In feugiat neque a tellus aliquam, sed dictum sapien vehicula. Etiam aliquam, augue a viverra fermentum, lorem turpis congue libero, at tincidunt elit ligula non ligula.</p>
+                <p>Morbi malesuada nisi id justo cursus, in pulvinar erat fringilla. Sed quis eros ac mi cursus aliquet a at dui. Donec vehicula, urna nec dictum varius, turpis ex consequat ligula, nec volutpat elit magna eget libero.</p>
+            </main>
+
+            <!-- Sampingan (Sidebar) -->
+            <aside class="col-md-4 bg-light p-3">
+                <h3>Sidebar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet nunc a turpis sodales, vitae dapibus massa aliquet.</p>
+                <p>Pellentesque at enim nec quam cursus venenatis a ac mauris. Integer a ullamcorper sapien. Fusce at bibendum urna, sed ultrices justo.</p>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <div class="row mt-4">
+            <footer class="col-12 bg-dark text-white text-center py-3">
+                <p>&copy; 2024 Latihan Bootstrap dengan Grid dan Navbar</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada nulla id velit malesuada, eget fringilla nulla posuere.</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+LATIHAN 3
+No.1 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS Kustom dengan Media Queries -->
+    <style>
+        /* Media query untuk layar di bawah 768px (layar kecil) */
+        @media (max-width: 767.98px) {
+            /* Sembunyikan sidebar */
+            aside {
+                display: none;
+            }
+            /* Perbesar ukuran teks untuk keterbacaan */
+            body {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Media query untuk layar di atas 768px (layar medium ke atas) */
+        @media (min-width: 768px) {
+            body {
+                font-size: 1rem;
+            }
+            main {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Media query untuk layar sangat besar (contohnya, di atas 1200px) */
+        @media (min-width: 1200px) {
+            body {
+                font-size: 1rem;
+            }
+            main {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Brand</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="row">
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut hendrerit lacus, eget viverra magna. Nullam nec neque sit amet est ullamcorper pharetra at ut orci.</p>
+                <p>Nulla facilisi. In feugiat neque a tellus aliquam, sed dictum sapien vehicula. Etiam aliquam, augue a viverra fermentum, lorem turpis congue libero, at tincidunt elit ligula non ligula.</p>
+                <p>Morbi malesuada nisi id justo cursus, in pulvinar erat fringilla. Sed quis eros ac mi cursus aliquet a at dui. Donec vehicula, urna nec dictum varius, turpis ex consequat ligula, nec volutpat elit magna eget libero.</p>
+            </main>
+
+            <!-- Sampingan (Sidebar) -->
+            <aside class="col-md-4 bg-light p-3">
+                <h3>Sidebar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet nunc a turpis sodales, vitae dapibus massa aliquet.</p>
+                <p>Pellentesque at enim nec quam cursus venenatis a ac mauris. Integer a ullamcorper sapien. Fusce at bibendum urna, sed ultrices justo.</p>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <div class="row mt-4">
+            <footer class="col-12 bg-dark text-white text-center py-3">
+                <p>&copy; 2024 Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada nulla id velit malesuada, eget fringilla nulla posuere.</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No.2 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS Kustom -->
+    <style>
+        /* Media query tambahan untuk meningkatkan keterbacaan teks pada layar kecil */
+        @media (max-width: 767.98px) {
+            body {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Media query untuk layar di atas 768px */
+        @media (min-width: 768px) {
+            main {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Media query untuk layar sangat besar di atas 1200px */
+        @media (min-width: 1200px) {
+            main {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container untuk membungkus seluruh layout -->
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row">
+            <header class="col-12 bg-primary text-white text-center py-3">
+                <h1>Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae semper ligula.</p>
+            </header>
+        </div>
+
+        <!-- Navigasi -->
+        <div class="row my-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Brand</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="row">
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut hendrerit lacus, eget viverra magna. Nullam nec neque sit amet est ullamcorper pharetra at ut orci.</p>
+                <p>Nulla facilisi. In feugiat neque a tellus aliquam, sed dictum sapien vehicula. Etiam aliquam, augue a viverra fermentum, lorem turpis congue libero, at tincidunt elit ligula non ligula.</p>
+                <p>Morbi malesuada nisi id justo cursus, in pulvinar erat fringilla. Sed quis eros ac mi cursus aliquet a at dui. Donec vehicula, urna nec dictum varius, turpis ex consequat ligula, nec volutpat elit magna eget libero.</p>
+            </main>
+
+            <!-- Sampingan (Sidebar) -->
+            <aside class="col-md-4 bg-light p-3 d-none d-md-block">
+                <h3>Sidebar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet nunc a turpis sodales, vitae dapibus massa aliquet.</p>
+                <p>Pellentesque at enim nec quam cursus venenatis a ac mauris. Integer a ullamcorper sapien. Fusce at bibendum urna, sed ultrices justo.</p>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <div class="row mt-4">
+            <footer class="col-12 bg-dark text-white text-center py-3">
+                <p>&copy; 2024 Latihan Bootstrap dengan Grid, Navbar, dan Media Queries</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada nulla id velit malesuada, eget fringilla nulla posuere.</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No 3. : 👍 Done so far good
+
+LATIHAN 4
+No.1 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Cards Example</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Another example of card content. This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Here’s a final example of a card with text that takes up less space, making the card appear more balanced.</p>
+                        <a href="#" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No.2 : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Cards</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Another example of card content. This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Here’s a final example of a card with text that takes up less space, making the card appear more balanced.</p>
+                        <a href="#" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No 3. : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Cards</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Another example of card content. This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Gambar 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Here’s a final example of a card with text that takes up less space, making the card appear more balanced.</p>
+                        <a href="#" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+LATIHAN 5
+No.1 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Bootstrap Example</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+        footer h5 {
+            margin-bottom: 20px;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Kolom Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kolom About Us -->
+                <div class="col-md-4 mb-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <!-- Kolom Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li>1234 Street Name, City, Country</li>
+                        <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No.2 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer Example</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+        footer h5 {
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li>1234 Street Name, City, Country</li>
+                        <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 4 (Opsional) -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Follow Us</h5>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+No.3 : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Footer Example</title>
+    <!-- Link ke CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        footer {
+            background-color: #343a40; /* Warna latar belakang gelap */
+            color: #ffffff; /* Warna teks putih */
+            padding: 40px 0;
+        }
+        footer h5 {
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1140px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer -->
+    <footer class="text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <!-- Kolom 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 2 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <!-- Kolom 3 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li>1234 Street Name, City, Country</li>
+                        <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <h5>Follow Us</h5>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link ke JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
